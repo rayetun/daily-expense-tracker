@@ -24,43 +24,42 @@
 <body>
 	<!-- Start of Hero Area -->	
 	<h2>Daily Expense Tracker</h2>
-    <div class="main-area container">
-      	<h4>Your Balance</h4>
-      	<h1 id="balance">$0.00</h1>
+	<div class="main-area">
+		<h4>Your Balance</h4>
+		<h1 id="balance">$0.00</h1>
 
-		<div class="inc-exp-container">
-			<div>
-			<h4>Income</h4>
-			<p id="money-plus" class="money plus">+$0.00</p>
-			</div>
-			<div>
-			<h4>Expense</h4>
-			<p id="money-minus" class="money minus">-$0.00</p>
-			</div>
-		</div>
+	  <div class="inc-exp-container">
+		  <div>
+			  <h4>Income</h4>
+			  <p id="money-plus" class="money plus">+$0.00</p>
+		  </div>
+		  <div>
+			  <h4>Expense</h4>
+			  <p id="money-minus" class="money minus">-$0.00</p>
+		  </div>
+	  </div>
 
-		<h3>History</h3>
-		<ul id="list" class="list">
-			<!-- <li class="minus">
-			Cash <span>-$400</span><button class="delete-btn">x</button>
-			</li> -->
-		</ul>
+	  <h3>History</h3>
+	  <ul id="list" class="list">
+		  <!-- <li class="minus">
+		  Cash <span>-$400</span><button class="delete-btn">x</button>
+		  </li> -->
+	  </ul>
 
-		<h3>Add new transaction</h3>
-		<form id="form">
-			<div class="form-control">
-			<label for="text">Title</label>
-			<input type="text" id="text" placeholder="Type transaction title..." />
-			</div>
-			<div class="form-control">
-			<label for="amount">Amount <br />
-				(Add + or - for income and expense)</label
-			>
-			<input type="number" id="amount" placeholder="Enter amount..." />
-			</div>
-			<button class="btn">Add transaction</button>
-		</form>
-    </div>	
+	  <h3>Add new transaction</h3>
+	  <form id="form">
+		  <div class="form-details">
+		  <label for="text">Title</label>
+		  <input type="text" id="text" placeholder="Type transaction title..." />
+		  </div>
+		  <div class="form-details">
+		  <label for="amount">Amount <br />
+			  (Add + or - before amount ex: +120 or -150)</label>
+		  <input type="number" id="amount" placeholder="Enter amount..." />
+		  </div>
+		  <button class="btn">Add transaction</button>
+	  </form>
+  </div>	
 	<!-- End of Hero Area -->
 
 
