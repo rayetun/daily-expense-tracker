@@ -7,10 +7,8 @@ const text = document.getElementById('text');
 const amount = document.getElementById('amount');
 
 const dummyTransactions = [
-    {id: 1, text: 'Bought Book', amount: -20},
-    {id: 2, text: 'Salary', amount: 400},
-    {id: 3, text: 'Bought Flower', amount: -40},
-    {id: 4, text: 'Bank Transfer', amount: 120},
+    {id: 1, text: 'Bought Mobile', amount: -320},
+    {id: 2, text: 'Salary', amount: 800},
 ];
 
 let transactions = dummyTransactions;
